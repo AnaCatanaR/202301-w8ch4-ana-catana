@@ -1,24 +1,22 @@
 import styled from "styled-components";
 
 const KeyStyled = styled.span`
+  position: relative;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #404041;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 20px #fff;
+  margin: 10px;
+  border: 1px solid #edf1f2;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+
   .buttons {
     position: relative;
     display: grid;
-  }
-
-  span {
-    position: relative;
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #404041;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 20px #fff;
-    margin: 10px;
-    border: 1px solid #edf1f2;
-    border-radius: 10px;
-    cursor: pointer;
-    user-select: none;
   }
 
   .buttons span:active {
